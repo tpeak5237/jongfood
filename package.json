@@ -10,7 +10,7 @@
     "check": "node --check app.js && node --check server.mjs && node --check src/domain.mjs && node --check src/server/http-app.mjs && node --check src/server/memory-store.mjs && node --check src/server/postgres-store.mjs && node --check src/server/seed.mjs",
     "lint": "eslint .",
     "typecheck": "node scripts/typecheck.mjs",
-    "test": "node --test tests/**/*.test.mjs",
+    "test": "node --test tests/domain.test.mjs tests/server-flow.test.mjs",
     "test:e2e": "playwright test",
     "db:migrate": "node scripts/migrate.mjs",
     "db:seed": "node scripts/seed-db.mjs"
