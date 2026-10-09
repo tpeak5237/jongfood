@@ -2623,3 +2623,7 @@ h4 {
     flex-direction: column;
   }
 }
+
+/* Keep entry and required-option copy readable in the existing chili palette. */
+.auth-form .button-primary { background: var(--color-action-primary-hover); }
+.modifier-hint { color: var(--color-chili-700); }
